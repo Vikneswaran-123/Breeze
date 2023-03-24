@@ -19,7 +19,9 @@ const Navbar = () => {
         </div>
         <div className="flex justify-center items-center">
           <div>
-            <p className="text-white opacity-80 font-chakra text-xl">Resources</p>
+            <p className="text-white opacity-80 font-chakra text-xl">
+              Resources
+            </p>
           </div>
           {/* <div className="pl-2">
             <img className="h-3 w-3 " src={arrow} alt="" />
@@ -37,7 +39,9 @@ const Navbar = () => {
           <img className="w-12 h-12 " src={login} alt="Br" />
         </div>
         <div className="px-16">
-          <button className="bg-[#00E7B9] hover:bg-white px-6 p-3 rounded-lg font-sans text-lg text-[#223354] font-semibold ">Request Demo </button>
+          <button className="bg-[#00E7B9] hover:bg-white px-6 p-3 rounded-lg font-sans text-lg text-[#223354] font-semibold ">
+            Request Demo{" "}
+          </button>
         </div>
       </div>
     </div>
