@@ -9,6 +9,8 @@ import appSettings from "../assets/app-settings.svg";
 import save from "../assets/save.svg";
 import circleTick from "../assets/circle-tick.svg";
 import pageAudit from "../assets/page-audit.svg";
+import tick from "../assets/tick.png";
+import add from "../assets/add.png";
 
 const Content = () => {
   return (
@@ -194,9 +196,104 @@ const Content = () => {
               application
             </h1>
           </div>
-
-          <div className="w-7/12  p-20 justify-center">
-            <img className="w-[600px]" src={pageAudit} alt="Err" />
+          <div className="flex justify-center">
+            <div className="w-7/12 pt-32 p-5 justify-center">
+              <img className="w-[700px]" src={pageAudit} alt="Err" />
+            </div>
+            <div className=" w-7/12 justify-center pt-20  p-10">
+              <div className=" ">
+                <h1 className="text-[#03224f] opacity-90 text-4xl font-chakraBd  text-start  ">
+                  Website audit report at your fingertips with Breeze
+                </h1>
+              </div>
+              <div className=" ">
+                <h1 className="text-[#03224f] opacity-50 text-xl font-semibold font-chakra text-start pt-5 ">
+                  Access the detailed audit report for your webpage and look
+                  into pppurtunities application
+                </h1>
+              </div>
+              <div className="flex w-10/12 justify-center pt-2">
+                <div className="justify-center items-center flex px-12">
+                  <img className=" w-16" src={tick} alt="Err" />
+                </div>
+                <div>
+                  <h1 className="text-[#03224f] opacity-90 text-2xl font-chakraBd  text-start  ">
+                    Add your webpage report URL get report in a click
+                  </h1>
+                  <h1 className="text-[#03224f] opacity-80 text-xl font-semibold font-chakra text-start  ">
+                    Add URL of your webpage get the detailed report by clicking
+                    on the 'new page audit' button
+                  </h1>
+                </div>
+              </div>
+              <div className="flex justify-center pt-8">
+                <div className="justify-center items-center flex px-12">
+                  <img className="w-16" src={tick} alt="Err" />
+                </div>
+                <div>
+                  <h1 className="text-[#03224f] opacity-90 text-2xl font-chakraBd text-start  ">
+                    Get insights into performance, SEO score and overall
+                    oppurtunities to improve your webpage
+                  </h1>
+                  <h1 className="text-[#03224f] opacity-80 text-xl font-semibold font-chakra text-start  ">
+                    You get the details of your performance and SEO score plus
+                    the oppurtunities where you can improve your webpage results
+                  </h1>
+                </div>
+              </div>
+              <div className="flex justify-center pt-8">
+                <div className="justify-center items-center flex px-12">
+                  <img className="w-16" src={tick} alt="Err" />
+                </div>
+                <div>
+                  <h1 className="text-[#03224f] opacity-90 text-2xl font-chakraBd text-start  ">
+                    Save the webpage audit report in Breeze app
+                  </h1>
+                  <h1 className="text-[#03224f] opacity-80 text-xl font-semibold font-chakra text-start  ">
+                    You can save your report of the webpage audit by clicking
+                    the 'save' button in the Breeze web application
+                  </h1>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <div className="flex justify-start pt-8">
+          <div className="justify-center items-center flex px-6">
+            <img className="w-5" src={add} alt="Err" />
+          </div>
+          <div>
+            <h1 className="text-[#03224f] opacity-90 text-2xl font-chakraBd text-start  ">
+              Which is the best tool for website audit?
+            </h1>
+            <h1 className="text-[#03224f] opacity-50 text-xl font-semibold font-chakra text-start  ">
+              Breeze is one of the best tool for website audit report. You can
+              avail it for free in beginner plan.
+            </h1>
+          </div>
+        </div>
+        <hr class="h-px my-8 bg-gray-200 border opacity-60 dark:bg-gray-700"></hr>
+        <div className="flex justify-start ">
+          <div className="justify-center items-center flex px-6">
+            <img className="w-5" src={add} alt="Err" />
+          </div>
+          <div>
+            <h1 className="text-[#03224f] opacity-90 text-2xl font-chakraBd text-start  ">
+              What is website audit report?
+            </h1>
+          </div>
+        </div>
+        <hr class="h-px my-8 bg-gray-200 border opacity-60 dark:bg-gray-700"></hr>
+        <div className="flex justify-start ">
+          <div className="justify-center items-center flex px-6">
+            <img className="w-5" src={add} alt="Err" />
+          </div>
+          <div>
+            <h1 className="text-[#03224f] opacity-90 text-2xl font-chakraBd text-start  ">
+            Can i download webpage audit report?
+            </h1>
           </div>
         </div>
       </div>

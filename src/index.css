@@ -6,7 +6,10 @@
   font-family: "Chakra";
   src: url("../src/fonts/ChakraPetch-Regular.ttf");
 }
-
+@font-face {
+  font-family: "ChakraBd";
+  src: url("../src/fonts/ChakraPetch-Bold.ttf");
+}
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
