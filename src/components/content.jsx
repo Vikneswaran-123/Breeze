@@ -14,6 +14,7 @@ import tick from "../assets/tick.png";
 import add from "../assets/add.png";
 import workspace from "../assets/WorkBanner.png";
 import logo from "../assets/breezeLogo.svg";
+import chrome from "../assets/chrome.png";
 
 const Content = () => {
   return (
@@ -329,10 +330,132 @@ const Content = () => {
           <img className="w-[900px]" src={workspace} alt="Err" />
         </div>
       </div>
-      <div >
-        {/* <div>
-          <img className="h-40 w-40" src={logo} alt="ERR" />
-        </div> */}
+      <div className="w-full">
+        {/* <div className="justify-center items-center md:pt-14 lg:pt-14 xl:pt-60 2xl:pt-96 "> */}
+        <div className="justify-center items-center pt-5">
+          <img className="h-40 w-48" src={logo} alt="ERR" />
+          <hr class="h-px  bg-gray-200 border opacity-30 dark:bg-gray-700"></hr>
+        </div>
+        <div className="flex w-full justify-between ">
+          <div className="justify-start items-center flex  ">
+            <h1 className="text-[#fff] opacity-96  pr-60 text-3xl  font-chakra ">
+              Features
+            </h1>
+          </div>
+
+          <div>
+            <h1 className="text-[#fff]  opacity-96 text-3xl  p-5 font-chakra ">
+              Company
+            </h1>
+          </div>
+          <div className="bg-transparent pl-80 pt-8 justify-center">
+            <img className="w-44 " src={chrome} alt="" />
+          </div>
+        </div>
+        <div className="flex  justify-between">
+          <div className="flex space-y-3  flex-col ">
+            <h1 className="text-[#fff] opacity-70 text-lg flex justify-start   font-chakra">
+              Cookie & Cache
+            </h1>
+            <h1 className="text-[#fff] opacity-70 text-lg flex justify-start    font-chakra">
+              Responsive Layout
+            </h1>
+            <h1 className="text-[#fff] opacity-70 text-lg flex justify-start   font-chakra">
+              Take Screenshot
+            </h1>
+            <h1 className="text-[#fff] opacity-70 text-lg flex justify-start   font-chakra">
+              Live Edit
+            </h1>
+            <h1 className="text-[#fff] opacity-70 text-lg flex justify-start   font-chakra">
+              SEO Panel
+            </h1>
+            <h1 className="text-[#fff] opacity-70 text-lg flex justify-start   font-chakra">
+              What is ?
+            </h1>
+            <h1 className="text-[#fff] opacity-70 text-lg flex justify-start  font-chakra">
+              Media
+            </h1>
+          </div>
+          <div className="flex flex-col pl-20  space-y-3 justify-start">
+            <h1 className="text-[#fff] opacity-70 text-lg flex justify-start   font-chakra">
+              Environment
+            </h1>
+            <h1 className="text-[#fff] opacity-70 text-lg flex justify-start    font-chakra">
+              Browser Support
+            </h1>
+            <h1 className="text-[#fff] opacity-70 text-lg flex justify-start   font-chakra">
+              Tech Stack
+            </h1>
+            <h1 className="text-[#fff] opacity-70 text-lg flex justify-start   font-chakra">
+              Screenshot Audit
+            </h1>
+            <h1 className="text-[#fff] opacity-70 text-lg flex justify-start   font-chakra">
+              Team Sharing
+            </h1>
+            <h1 className="text-[#fff] opacity-70 text-lg flex justify-start   font-chakra">
+              Page Manager
+            </h1>
+            <h1 className="text-[#fff] opacity-70 text-lg flex justify-start  font-chakra">
+              Checklist
+            </h1>
+          </div>
+          <div className="flex flex-col pl-24 space-y-3 justify-start">
+            <h1 className="text-[#fff] opacity-70 text-lg flex justify-start   font-chakra">
+              About us
+            </h1>
+            <h1 className="text-[#fff] opacity-70 text-lg flex justify-start    font-chakra">
+              Careers
+            </h1>
+            <h1 className="text-[#fff] opacity-70 text-lg flex justify-start   font-chakra">
+              Contact us
+            </h1>
+            <h1 className="text-[#fff] opacity-70 text-lg flex justify-start   font-chakra">
+              Blog
+            </h1>
+          </div>
+          <div className="flex ">
+            <h1 className="text-[#fff]  opacity-96 text-xl pl-96 p-5 font-chakra">
+              Check out our 9 Reviews
+            </h1>
+          </div>
+        </div>
+        <div>
+          <hr class="h-px  bg-gray-200 my-6 border opacity-30 dark:bg-gray-700"></hr>
+        </div>
+        <div>
+          <div>
+            <h1 className="text-[#fff] opacity-70 text-lg flex justify-start   font-chakra">
+              SCube.co
+            </h1>
+            <div className="felx">
+              <div className="pt-5  flex">
+                <div className="w-6/12">
+                  <p className="text-[#fff] opacity-70 text-lg flex justify-start   font-chakra">
+                    SCube.co & SCube Theme is the trading name for SCube Digital
+                    Limited
+                  </p>
+                  <p className="text-[#fff] opacity-70 text-lg flex justify-start   font-chakra">
+                    SCube is Trademarked with UK Government
+                  </p>
+                </div>
+                <div className="flex w-6/12 pt-10 justify-evenly">
+                  <h1 className="text-[#fff] opacity-70 text-lg flex justify-start   font-chakra">
+                    Terms & Policies
+                  </h1>
+                  <h1 className="text-[#fff] opacity-70 text-lg flex justify-start   font-chakra">
+                    Privacy Policy
+                  </h1>
+                  <h1 className="text-[#fff] opacity-70 text-lg flex justify-start   font-chakra">
+                    Certificates
+                  </h1>
+                  <h1 className="text-[#fff] opacity-70 text-lg flex justify-start   font-chakra">
+                    Cookie Policy
+                  </h1>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );
