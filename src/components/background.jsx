@@ -1,5 +1,8 @@
 import banner from "../assets/banner.svg";
 import swing from "../assets/swing.png";
+import logo from "../assets/breezeLogo.svg";
+import bg from "../assets/BGimg.png"
+
 
 const Background = () => {
   return (
@@ -13,6 +16,11 @@ const Background = () => {
       </div>
       <div>
         <img className="w-full relative" src={swing} alt="BACKGORUND" />
+      </div>
+      <div className=" w-full  bg-cover">
+      <div>
+          <img className="w-[100%] h-96 bottom-fixed" src={bg} alt="ERR" />
+        </div>
       </div>
     </div>
   );

@@ -1,4 +1,4 @@
-import logo from "../assets/breezeLogo.svg";
+import logo from "../assets/breezeLogo.svg"
 import arrow from "../assets/downarrow.png";
 import login from "../assets/login.svg";
 
@@ -40,7 +40,7 @@ const Navbar = () => {
         </div>
         <div className="px-16">
           <button className="bg-[#00E7B9] hover:bg-white px-6 p-3 rounded-lg font-sans text-lg text-[#223354] font-semibold ">
-            Request Demo{" "}
+            Request Demo
           </button>
         </div>
       </div>

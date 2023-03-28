@@ -33,3 +33,7 @@ code {
     rgba(0, 0, 139, 1) 100%
   );
 }
+
+.img{
+  background: #011027 url() center center/cover no-repeat;
+}

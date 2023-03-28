@@ -1,5 +1,6 @@
 import audit from "../assets/audit.PNG";
 import arrow from "../assets/arrow.svg";
+import arrowWhite from "../assets/arrowWhite.svg";
 import explore from "../assets/workoutline.svg";
 import checkCircle from "../assets/checkCircle.svg";
 import factCheck from "../assets/factchecks.svg";
@@ -11,6 +12,8 @@ import circleTick from "../assets/circle-tick.svg";
 import pageAudit from "../assets/page-audit.svg";
 import tick from "../assets/tick.png";
 import add from "../assets/add.png";
+import workspace from "../assets/WorkBanner.png";
+import logo from "../assets/breezeLogo.svg";
 
 const Content = () => {
   return (
@@ -292,10 +295,44 @@ const Content = () => {
           </div>
           <div>
             <h1 className="text-[#03224f] opacity-90 text-2xl font-chakraBd text-start  ">
-            Can i download webpage audit report?
+              Can i download webpage audit report?
             </h1>
           </div>
         </div>
+      </div>
+      <div className="flex pt-20">
+        <div className="w-7/12 pt-10 justify-center items-center">
+          <h1 className="text-[#03224f] text-5xl font-chakra text-start pt-20 leading-snug">
+            Sign up to
+          </h1>
+          <h1 className="text-[#03224f] text-5xl font-chakraBd text-start  leading-snug">
+            Breeze Web App
+          </h1>
+          <p className="text-[#03224f] opacity-70 text-2xl text-start pt-3  font-chakra leading-snug">
+            Some of the features that make breeze one of the best website
+            toolkits available today
+          </p>
+          <div className="flex">
+            <div className="mt-10 flex hover:bg-[#050A30]  px-6 rounded-md justify-center p-3 bg-blue-700">
+              <img
+                className="justify-center items-center px-2 w-8 "
+                src={arrowWhite}
+                alt=""
+              />
+              <h1 className="text-[#fff] opacity-90 text-md  font-bold   font-sans ">
+                Get Started
+              </h1>
+            </div>
+          </div>
+        </div>
+        <div className="w-11/12 pl-36 p-5 justify-center">
+          <img className="w-[900px]" src={workspace} alt="Err" />
+        </div>
+      </div>
+      <div >
+        {/* <div>
+          <img className="h-40 w-40" src={logo} alt="ERR" />
+        </div> */}
       </div>
     </div>
   );
