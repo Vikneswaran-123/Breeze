@@ -1,11 +1,11 @@
-import logo from "../assets/breezeLogo.svg"
+import logo from "../assets/breezeLogo.svg";
 import arrow from "../assets/downarrow.png";
 import login from "../assets/login.svg";
 
 const Navbar = () => {
   return (
-    <div className="absolute z-40 flex px-20  w-full ">
-      <div className="flex w-5/12 justify-between  px-4">
+    <div className="lg:absolute lg:z-40 lg:flex px-20 md:hidden  lg:w-full ">
+      <div className="lg:flex lg:w-5/12 lg:justify-between md:hidden md:w-full    px-4">
         <div>
           <img className="h-40 w-40" src={logo} alt="ERR" />
         </div>
@@ -34,7 +34,7 @@ const Navbar = () => {
           <p className="text-white opacity-80 font-chakra text-xl">Pricing</p>
         </div>
       </div>
-      <div className="flex justify-end w-7/12  items-center">
+      <div className="lg:flex justify-end lg:w-7/12  lg:items-center">
         <div>
           <img className="w-12 h-12 " src={login} alt="Br" />
         </div>

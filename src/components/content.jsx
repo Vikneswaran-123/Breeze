@@ -18,17 +18,17 @@ import chrome from "../assets/chrome.png";
 
 const Content = () => {
   return (
-    <div className="absolute md:w-screen md:p-10 p-24 z-10  w-full">
-      <div className="flex  md:flex-col ">
-        <div className="w-6/12 ">
-          <h1 className="text-white text-5xl font-chakra text-start pt-20 leading-snug">
+    <div className="absolute md:w-screen  lg:p-24 z-10  w-full">
+      <div className="lg:flex flex-row  ">
+        <div className="lg:w-6/12 md:w-full ">
+          <h1 className="text-white lg:text-5xl md:text-3xl md:font-chakra lg:font-chakra lg:text-start md:pt-10 lg:pt-20 md:leading-snug lg:leading-snug">
             Get website audit report in a click with Breeze application
           </h1>
-          <p className="text-white opacity-80 text-3xl text-start pt-3  font-chakra leading-snug">
+          <p className="text-white lg:opacity-80 md:opacity-80 lg:text-3xl md:text-xl lg:text-start pt-3 md:font-chakra   lg:font-chakra lg:leading-snug">
             Breeze avails you detailed audit behind website pages within few
             steps.
           </p>
-          <div className="flex">
+          <div className="flex md:w-full md:pl-5">
             <div className="mt-10 flex hover:bg-[#050A30]   rounded-md justify-center p-2 bg-[#00E7B9]">
               <img
                 className="justify-center items-center px-2 w-8 "
@@ -51,9 +51,9 @@ const Content = () => {
             </div>
           </div>
         </div>
-        <div className="w-6/12 pl-36 p-20 justify-center">
+        <div className="lg:w-6/12 lg:pl-36  lg:p-20 md:p-16 justify-center">
           <img className="shadow-2xl" src={audit} alt="Err" />
-          <p className="text-white opacity-60 text-xl text-center  pt-3 font-chakra leading-snug">
+          <p className="lg:text-white opacity-60 text-xl text-center  pt-3 font-chakra leading-snug">
             Breeze is the free website audit toolthat provides w ebsite audit
             reports for you in click
           </p>
@@ -61,7 +61,7 @@ const Content = () => {
       </div>
       <div>
         <div className="flex justify-center ">
-          <h1 className="text-[#03224f] opacity-90 text-5xl font-chakra text-start pt-32 ">
+          <h1 className="text-[#03224f] opacity-90 text-5xl font-chakra text-start md:px-5 md:pt-20 lg:pt-32 ">
             See how a webpage is performing in the Breeze web application
           </h1>
         </div>
@@ -71,7 +71,7 @@ const Content = () => {
             webpage
           </h1>
         </div>
-        <div className="grid grid-cols-3  pt-10 gap-9 justify-around">
+        <div className="lg:grid lg:grid-cols-3 md:grid md:grid-cols-1 md:px-5 pt-10 lg:gap-9 md:gap-10 justify-around">
           <div className="bg-white rounded-xl grid justify-items-center  shadow-xl">
             <img className="pt-10" src={checkCircle} alt="er" />
             <h1 className="text-[#03224f] opacity-80 text-base font-bold font-sans  pt-3">
@@ -132,7 +132,7 @@ const Content = () => {
           </div>
         </div>
       </div>
-      <div className="pt-16 ">
+      <div className="pt-16 md:px-5">
         <div className="image flex justify-between rounded-2xl">
           <div className="RS p-12 ">
             <div className="text-white text-4xl text-start font-bold font-chakra  pt-3">
@@ -166,19 +166,19 @@ const Content = () => {
             </div>
           </div>
           <div className="LS flex flex-col pr-10 justify-evenly py-10">
-            <div className="bg-[#040720] flex  items-center p-4 pr-36 rounded-xl">
+            <div className="bg-[#040720] flex  items-center p-4 lg:pr-36 rounded-xl">
               <img className="flex justify-start" src={circleTick} alt="ar" />
               <h1 className="text-white  text-md px-4 font-semibold font-sans">
                 Freelancer: £0/Free
               </h1>
             </div>
-            <div className="bg-[#040720] flex  items-center p-4 pr-36 rounded-xl">
+            <div className="bg-[#040720] flex  items-center p-4 lg:pr-36 rounded-xl">
               <img className="flex justify-start" src={circleTick} alt="ar" />
               <h1 className="text-white  text-md px-4 font-semibold font-sans">
                 Starter: £150 pm/£1800 pa
               </h1>
             </div>
-            <div className="bg-[#040720] flex  items-center p-4  pr-36 rounded-xl">
+            <div className="bg-[#040720] flex  items-center p-4  lg:pr-36 rounded-xl">
               <img className="flex justify-start" src={circleTick} alt="ar" />
               <h1 className="text-white  text-md px-4 font-semibold font-sans">
                 pro:£500 pm/£6000 pa
@@ -190,7 +190,7 @@ const Content = () => {
       <div>
         <div>
           <div className="flex justify-center ">
-            <h1 className="text-[#03224f] opacity-90 text-5xl font-chakra text-start pt-32 ">
+            <h1 className="text-[#03224f] md:p-8 opacity-90 text-5xl font-chakra text-start pt-32 ">
               Breeze is the best website audit tools you can find
             </h1>
           </div>
@@ -200,11 +200,11 @@ const Content = () => {
               application
             </h1>
           </div>
-          <div className="flex justify-center">
-            <div className="w-7/12 pt-32 p-5 justify-center">
+          <div className="lg:flex justify-center">
+            <div className="lg:w-7/12 pt-32 p-5 justify-center">
               <img className="w-[700px]" src={pageAudit} alt="Err" />
             </div>
-            <div className=" w-7/12 justify-center pt-20  p-10">
+            <div className=" lg:w-7/12 justify-center pt-20  p-10">
               <div className=" ">
                 <h1 className="text-[#03224f] opacity-90 text-4xl font-chakraBd  text-start  ">
                   Website audit report at your fingertips with Breeze
@@ -301,8 +301,8 @@ const Content = () => {
           </div>
         </div>
       </div>
-      <div className="flex pt-20">
-        <div className="w-7/12 pt-10 justify-center items-center">
+      <div className="lg:flex pt-20">
+        <div className="lg:w-7/12 pt-10 md:p-6 justify-center items-center">
           <h1 className="text-[#03224f] text-5xl font-chakra text-start pt-20 leading-snug">
             Sign up to
           </h1>
@@ -326,19 +326,19 @@ const Content = () => {
             </div>
           </div>
         </div>
-        <div className="w-11/12 pl-36 p-5 justify-center">
+        <div className="lg:w-11/12 pl-36  lg:p-5 md:pt-12 justify-center">
           <img className="w-[900px]" src={workspace} alt="Err" />
         </div>
       </div>
       <div className="w-full">
         {/* <div className="justify-center items-center md:pt-14 lg:pt-14 xl:pt-60 2xl:pt-96 "> */}
-        <div className="justify-center items-center pt-5">
+        <div className="justify-center items-center md:px-5 pt-5">
           <img className="h-40 w-48" src={logo} alt="ERR" />
           <hr class="h-px  bg-gray-200 border opacity-30 dark:bg-gray-700"></hr>
         </div>
-        <div className="flex w-full justify-between ">
+        <div className="flex w-full  justify-between ">
           <div className="justify-start items-center flex  ">
-            <h1 className="text-[#fff] opacity-96  pr-60 text-3xl  font-chakra ">
+            <h1 className="text-[#fff] opacity-96 md:pl-5  pr-60 text-3xl  font-chakra ">
               Features
             </h1>
           </div>
@@ -348,31 +348,31 @@ const Content = () => {
               Company
             </h1>
           </div>
-          <div className="bg-transparent pl-80 pt-8 justify-center">
+          <div className="bg-transparent md:pl-0 lg:pl-80 pt-8 md:pr-3 justify-center">
             <img className="w-44 " src={chrome} alt="" />
           </div>
         </div>
         <div className="flex  justify-between">
-          <div className="flex space-y-3  flex-col ">
-            <h1 className="text-[#fff] opacity-70 text-lg flex justify-start   font-chakra">
+          <div className="flex space-y-3 flex-col  ">
+            <h1 className="text-[#fff] opacity-70 text-lg flex justify-start md:pl-6   font-chakra">
               Cookie & Cache
             </h1>
-            <h1 className="text-[#fff] opacity-70 text-lg flex justify-start    font-chakra">
+            <h1 className="text-[#fff] opacity-70 text-lg flex justify-start md:pl-6    font-chakra">
               Responsive Layout
             </h1>
-            <h1 className="text-[#fff] opacity-70 text-lg flex justify-start   font-chakra">
+            <h1 className="text-[#fff] opacity-70 text-lg flex justify-start md:pl-6    font-chakra">
               Take Screenshot
             </h1>
-            <h1 className="text-[#fff] opacity-70 text-lg flex justify-start   font-chakra">
+            <h1 className="text-[#fff] opacity-70 text-lg flex justify-start md:pl-6   font-chakra">
               Live Edit
             </h1>
-            <h1 className="text-[#fff] opacity-70 text-lg flex justify-start   font-chakra">
+            <h1 className="text-[#fff] opacity-70 text-lg flex justify-start md:pl-6    font-chakra">
               SEO Panel
             </h1>
-            <h1 className="text-[#fff] opacity-70 text-lg flex justify-start   font-chakra">
+            <h1 className="text-[#fff] opacity-70 text-lg flex justify-start  md:pl-6  font-chakra">
               What is ?
             </h1>
-            <h1 className="text-[#fff] opacity-70 text-lg flex justify-start  font-chakra">
+            <h1 className="text-[#fff] opacity-70 text-lg flex justify-start md:pl-6   font-chakra">
               Media
             </h1>
           </div>
@@ -414,7 +414,7 @@ const Content = () => {
             </h1>
           </div>
           <div className="flex md:flex-col ">
-            <h1 className="text-[#fff] md:text-slate-900 md:pl-10  opacity-96 text-xl pl-96 p-5 font-chakra">
+            <h1 className="text-[#fff] md:text-slate-900 md:pl-10  opacity-96 text-xl lg:pl-96 p-5 font-chakra">
               Check out our 9 Reviews
             </h1>
           </div>
@@ -424,10 +424,10 @@ const Content = () => {
         </div>
         <div>
           <div>
-            <h1 className="text-[#fff] opacity-70 text-lg flex justify-start   font-chakra">
+            <h1 className="text-[#fff] opacity-70 md:pl-3 text-lg flex justify-start   font-chakra">
               SCube.co
             </h1>
-            <div className="felx">
+            <div className="felx md:pl-3">
               <div className="pt-5  flex">
                 <div className="w-6/12">
                   <p className="text-[#fff] opacity-70 text-lg flex justify-start   font-chakra">
