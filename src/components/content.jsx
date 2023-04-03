@@ -18,8 +18,8 @@ import chrome from "../assets/chrome.png";
 
 const Content = () => {
   return (
-    <div className="absolute z-10 p-24 w-full">
-      <div className=" flex">
+    <div className="absolute md:w-screen md:p-10 p-24 z-10  w-full">
+      <div className="flex  md:flex-col ">
         <div className="w-6/12 ">
           <h1 className="text-white text-5xl font-chakra text-start pt-20 leading-snug">
             Get website audit report in a click with Breeze application
@@ -413,8 +413,8 @@ const Content = () => {
               Blog
             </h1>
           </div>
-          <div className="flex ">
-            <h1 className="text-[#fff]  opacity-96 text-xl pl-96 p-5 font-chakra">
+          <div className="flex md:flex-col ">
+            <h1 className="text-[#fff] md:text-slate-900 md:pl-10  opacity-96 text-xl pl-96 p-5 font-chakra">
               Check out our 9 Reviews
             </h1>
           </div>

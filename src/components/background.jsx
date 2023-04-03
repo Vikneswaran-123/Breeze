@@ -1,14 +1,14 @@
 import banner from "../assets/banner.svg";
 import swing from "../assets/swing.png";
 import logo from "../assets/breezeLogo.svg";
-import bg from "../assets/bgimg.png";
+import bg from "../assets/BGimg.png";
 
 const Background = () => {
   return (
     <div className="absolute w-full">
-      <div className="w-full">
+      <div className="w-full md:w-full">
         <img
-          className="w-full bg-cover absolute "
+          className="w-full lg:w-full bg-cover absolute "
           src={banner}
           alt="BACKGORUND"
         />
