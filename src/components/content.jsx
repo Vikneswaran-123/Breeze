@@ -190,7 +190,7 @@ const Content = () => {
       <div>
         <div>
           <div className="flex justify-center ">
-            <h1 className="text-[#03224f] md:p-8 opacity-90 text-5xl font-chakra text-start pt-32 ">
+            <h1 className="text-[#03224f] md:p-8 opacity-90 text-5xl font-chakra text-start md:pt-20 lg:pt-32 ">
               Breeze is the best website audit tools you can find
             </h1>
           </div>
@@ -201,7 +201,7 @@ const Content = () => {
             </h1>
           </div>
           <div className="lg:flex justify-center">
-            <div className="lg:w-7/12 pt-32 p-5 justify-center">
+            <div className="lg:w-7/12 lg:pt-32 md:pt-10 p-5 justify-center">
               <img className="w-[700px]" src={pageAudit} alt="Err" />
             </div>
             <div className=" lg:w-7/12 justify-center pt-20  p-10">
